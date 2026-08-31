@@ -1,4 +1,5 @@
 import WalletBalance from "./WalletBalance";
+import OwlHead from "./OwlHead";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>Connect a wallet and check your devnet balance.</p>
       </header>
       <main>
+        <OwlHead />
         <WalletBalance />
       </main>
     </div>
