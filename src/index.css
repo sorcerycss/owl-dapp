@@ -1,0 +1,82 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+  background-color: #0d0d12;
+  color: #f4f4f5;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  max-width: 480px;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+  background: linear-gradient(90deg, #9945ff, #14f195);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+header p {
+  color: #a1a1aa;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.wallet-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wallet-info {
+  background: #17171f;
+  border: 1px solid #27272f;
+  border-radius: 12px;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+.address {
+  font-family: monospace;
+  color: #a1a1aa;
+  margin: 0 0 0.5rem;
+}
+
+.balance {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.wallet-info button {
+  background: #27272f;
+  color: #f4f4f5;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.wallet-info button:hover {
+  background: #33333d;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #71717a;
+  margin: 0.75rem 0 0;
+}
