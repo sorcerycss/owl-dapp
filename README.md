@@ -1,4 +1,4 @@
-# Solana Mobile Starter
+# Solana Mobile dApp (Pet Project)
 
 A Vite + React + TypeScript starter with Solana wallet connection wired up,
 built as a first step toward a Solana dApp Store app.
